@@ -15,6 +15,6 @@ export const colors = {
   SOFTGRAY: '#e8e8e8',
   MIDDLEGRAY: '#8B8B8B',
   HARDBLACK: '#414141',
-  THINGRAY: '#dcdcdc',
+  THINGRAY: '#f8f3eb',
   GRAYACTIONBUTTON: 'rgb(165 165 165)',
 };

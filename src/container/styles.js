@@ -20,7 +20,7 @@ export const TopContent = styled.div`
   height: 15vh;
   display: flex;
   align-items: center;
-  justify-content:  space-between ;
+  justify-content: space-between;
   padding: 25px 40px 10px 0px;
 `;
 
