@@ -3,32 +3,30 @@ import { makeStyles } from '@material-ui/core/styles';
 import { StyleUpButtom } from './styles';
 
 const UploadButton = () => {
-    const useStyles = makeStyles((theme) => ({
-        input: {
-            display: 'none',
-        },
-    }));
+  const useStyles = makeStyles((theme) => ({
+    input: {
+      display: 'none',
+    },
+  }));
 
-    const classes = useStyles();
+  const classes = useStyles();
 
-    return (
-        <div >
-            <input
-                accept="image/*"
-                className={classes.input}
-                id="contained-button-file"
-                multiple
-                type="file"
-            />
-            <label htmlFor="contained-button-file">
-                <StyleUpButtom variant="contained" component="span">
-                    UPLOAD LIST ⬆️
-                </StyleUpButtom>
+  return (
+    <>
+      <input
+        accept='image/*'
+        className={classes.input}
+        id='contained-button-file'
+        multiple
+        type='file'
+      />
+      <label htmlFor='contained-button-file'>
+        <StyleUpButtom variant='contained' component='span'>
+          UPLOAD LIST ⬆️
+        </StyleUpButtom>
+      </label>
+    </>
+  );
+};
 
-            </label>
-
-        </div>
-    );
-}
-
-export default UploadButton
+export default UploadButton;
