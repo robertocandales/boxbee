@@ -8,13 +8,14 @@ export const MIN_8K_WIDTH = 7680;
 
 // Colors.
 export const colors = {
-  GOLD: '#fdde81',
-  BLACK: '#000000',
-  DUSK: '#384182',
-  GRAY: '#f2f5fa',
-  SOFTGRAY: '#e8e8e8',
-  MIDDLEGRAY: '#8B8B8B',
-  HARDBLACK: '#414141',
-  THINGRAY: '#dcdcdc',
-  GRAYACTIONBUTTON: 'rgb(165 165 165)',
+    GOLD: '#fdde81',
+    BLACK: '#000000',
+    DUSK: '#384182',
+    GRAY: '#f2f5fa',
+    SOFTGRAY: '#e8e8e8',
+    MIDDLEGRAY: '#8B8B8B',
+    HARDBLACK: '#414141',
+    THINGRAY: '#dcdcdc',
+    GRAYACTIONBUTTON: 'rgb(165 165 165)',
+    WHITE: '#ffffff',
 };

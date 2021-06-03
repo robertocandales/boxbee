@@ -1,24 +1,15 @@
 import React from 'react';
 import {
     WrapperCard,
-    InnerCard,
-    TitleCard,
-    Paragraph,
     Title,
-    CheckIcon,
-    IconCard,
     WrapperButton,
     CardsFlex,
 } from './styles';
-import CardsInput from '../shared/customizedInput/CardsInput';
-import checkedimage from './assets/checked.svg';
-import uncheckedimage from './assets/unchecked.svg'
-import iconCard from './assets/box-1.svg';
 import CardButton from '../shared/button/CardButton';
 
 //data
 import data from './data/index.json';
-import SmallerCards from './SmallerCards';
+import SmallerCards from './components/SmallerCard/SmallerCards';
 
 const Boxes = () => {
     console.log(data);
@@ -28,7 +19,7 @@ const Boxes = () => {
                 <Title>Step 1: Set up your box</Title>
                 <CardsFlex>
                     {(data.data || []).map((item, index) => (
-                        <SmallerCards data={data} index={index} />
+                        <SmallerCards item={item} index={index} />
                     ))}
                 </CardsFlex>
                 <WrapperButton>
