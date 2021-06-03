@@ -1,36 +1,28 @@
 {
-  "data": [
-    {
-      "title": "Give your box a name",
-      "description": "Create a nickname to help track your box orders",
-      "check": true,
-      "uploadList": false,
-      "inputName": "Box name",
-      "icon": "12"
-    },
-    {
-      "title": "Provide your box count",
-      "description": "Upload a recipient list or a general headcount to get started",
-      "check": false,
-      "uploadList": true,
-      "inputName": "Box name",
-      "icon": "12"
-    },
-    {
-      "title": "Set a shipping date",
-      "description": "Boxbee requires a minimum of 30 days from box submission to fulfill your order. Earliest shipping date for this box is June 01, 2021.",
-      "check": false,
-      "uploadList": true,
-      "inputName": "Box name",
-      "icon": "12"
-    },
-    {
-      "title": "Give your box a name",
-      "description": "Create a nickname to help track your box orders",
-      "check": false,
-      "uploadList": false,
-      "inputName": "Box name",
-      "icon": "12"
-    }
-  ]
+    "data": [
+        {
+            "title": "Give your box a name",
+            "description": "Create a nickname to help track your box orders",
+            "check": true,
+            "uploadList": false,
+            "inputName": "Box name",
+            "icon": "12"
+        },
+        {
+            "title": "Provide your box count",
+            "description": "Upload a recipient list or a general headcount to get started",
+            "check": false,
+            "uploadList": true,
+            "inputName": "Box name",
+            "icon": "12"
+        },
+        {
+            "title": "Set a shipping date",
+            "description": "Boxbee requires a minimum of 30 days from box submission to fulfill your order. Earliest shipping date for this box is June 01, 2021.",
+            "check": false,
+            "uploadList": true,
+            "inputName": "Box name",
+            "icon": "12"
+        }
+    ]
 }

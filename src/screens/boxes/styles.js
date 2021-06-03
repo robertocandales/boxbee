@@ -88,3 +88,9 @@ export const WrapperButton = styled.div`
   
  
 `;
+
+export const CardsFlex = styled.div`
+  display: flex;  
+  flex-wrap: wrap;
+`;
+
