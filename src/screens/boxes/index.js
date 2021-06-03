@@ -17,10 +17,6 @@ import CardButton from '../shared/button/CardButton';
 const Boxes = () => {
   return (
     <div>
-      {' '}
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis in cupiditate
-      perspiciatis, accusamus esse doloremque, commodi, iure excepturi similique necessitatibus rem
-      eos tempore. Itaque obcaecati corrupti non suscipit tempora nostrum?{' '}
       <WrapperCard>
         <Title>Step 1: Set up your box</Title>
         <InnerCard>

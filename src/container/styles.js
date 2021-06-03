@@ -38,3 +38,5 @@ export const WraperButton = styled.button`
 `;
 
 export const Img = styled.img``;
+
+export const Title = styled.div``;
