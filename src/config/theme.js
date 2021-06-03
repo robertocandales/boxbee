@@ -10,7 +10,7 @@ export const MIN_8K_WIDTH = 7680;
 export const colors = {
   GOLD: '#fdde81',
   BLACK: '#000000',
-  WHITEGRAY: '#fafafa',
+  DUSK: '#384182',
   GRAY: '#f2f5fa',
   SOFTGRAY: '#e8e8e8',
   MIDDLEGRAY: '#8B8B8B',
