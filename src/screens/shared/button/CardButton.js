@@ -1,14 +1,16 @@
-import React from 'react';
-import Button from '@material-ui/core/Button';
+import React from 'react'
+
+
+//styles
 import { CustomizedButton } from './styles';
 
 
-const CardButton = () => {
+const CardButton = ({ description = 'add description' }) => {
     return (
-        <CustomizedButton variant="contained" disableElevation>
-            GET STARTED →
+        <CustomizedButton>
+            {description}
         </CustomizedButton>
-    );
+    )
 }
 
 export default CardButton
