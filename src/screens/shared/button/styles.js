@@ -9,5 +9,9 @@ export const CustomizedButton = styled.button`
   padding: 20px 51px 20px 68px;
   border-radius: 15px;
   border: none;
+  font-weight: bold;
+  &:hover {
+    background-color: ${colors.GRAY};
+  }
 `;
 
