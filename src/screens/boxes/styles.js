@@ -81,3 +81,10 @@ export const CardBut = styled.div`
   border-radius: 15px;
   background-color: var(--goldgenrod);
 `;
+
+export const WrapperButton = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  
+ 
+`;

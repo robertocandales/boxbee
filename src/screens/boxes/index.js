@@ -1,13 +1,14 @@
 import React from 'react';
 import {
-  WrapperCard,
-  InnerCard,
-  TitleCard,
-  Paragraph,
-  Title,
-  CheckIcon,
-  IconCard,
-  CardBut,
+    WrapperCard,
+    InnerCard,
+    TitleCard,
+    Paragraph,
+    Title,
+    CheckIcon,
+    IconCard,
+    CardBut,
+    WrapperButton
 } from './styles';
 import CardsInput from '../shared/customizedInput/CardsInput';
 import checkedimage from './assets/checked.svg';
@@ -15,26 +16,30 @@ import iconCard from './assets/box-1.svg';
 import CardButton from '../shared/button/CardButton';
 
 const Boxes = () => {
-  return (
-    <div>
-      <WrapperCard>
-        <Title>Step 1: Set up your box</Title>
-        <InnerCard>
-          <IconCard>
-            <img src={iconCard} alt='' srcset='' />
-          </IconCard>
-          <CheckIcon>
-            <img src={checkedimage} alt='' srcset='' />
-          </CheckIcon>
-          <TitleCard>Give your box a name </TitleCard>
+    return (
+        <div>
+            <WrapperCard>
+                <Title>Step 1: Set up your box</Title>
+                <InnerCard>
+                    <IconCard>
+                        <img src={iconCard} alt='' srcset='' />
+                    </IconCard>
+                    <CheckIcon>
+                        <img src={checkedimage} alt='' srcset='' />
+                    </CheckIcon>
+                    <TitleCard>Give your box a name </TitleCard>
 
-          <Paragraph>Create a nickname to help track your box orders</Paragraph>
-          <CardsInput />
-        </InnerCard>
-        <CardButton />
-      </WrapperCard>
-    </div>
-  );
+                    <Paragraph>Create a nickname to help track your box orders</Paragraph>
+                    <CardsInput />
+
+                </InnerCard>
+
+                <WrapperButton>
+                    <CardButton description={"GET STARTED  →"} />
+                </WrapperButton>
+            </WrapperCard>
+        </div>
+    );
 };
 
 export default Boxes;
