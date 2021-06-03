@@ -1,30 +1,46 @@
 import React from 'react';
 import { colors } from '../../../../config/theme';
-import { Wrapper, Stepper, StepperText, IsFille, Container, FelxDivider } from './styles';
+import { Wrapper, WrapperData, Text, StepperText, Container, FelxDivider } from './styles';
+
+//assets
+import close from '../../assets/close.svg';
 
 const StepperComponent = () => {
   return (
-    <>
-      <Wrapper>
+    <Wrapper>
+      <WrapperData>
         <StepperText>
-          <FelxDivider>1. Setup</FelxDivider>
-          <FelxDivider justify={'center'}>2. Goodies</FelxDivider>
-          <FelxDivider justify={'center'}>3. Order summary</FelxDivider>
-          <FelxDivider justify={'center'}>4. Checkout</FelxDivider>
-          <FelxDivider justify='flex-end'>5. Complete!</FelxDivider>
+          <FelxDivider>
+            {' '}
+            <Text color={colors.DUSK} fontWeight={'bold'}>
+              {' '}
+              1. Setup
+            </Text>
+          </FelxDivider>
+          <FelxDivider justify={'center'}>
+            {' '}
+            <Text> 2. Goodies</Text>
+          </FelxDivider>
+          <FelxDivider justify={'center'}>
+            {' '}
+            <Text>3. Order summary</Text>
+          </FelxDivider>
+          <FelxDivider justify={'center'}>
+            <Text> 4. Checkout</Text>
+          </FelxDivider>
+          <FelxDivider justify='flex-end'>
+            <Text>5. Complete!</Text>
+          </FelxDivider>
         </StepperText>
-        <Stepper>
-          <IsFille backgroundColor={true} />
-          <IsFille />
 
-          <IsFille />
-          <IsFille />
-        </Stepper>
         <Container color={colors.GOLD} width={'100%'}>
           <progress value={6} max={100} />
         </Container>
-      </Wrapper>
-    </>
+      </WrapperData>
+      <FelxDivider justify='flex-end'>
+        <img src={close} alt='close' />
+      </FelxDivider>
+    </Wrapper>
   );
 };
 

@@ -3,6 +3,13 @@ import { colors } from '../../../../config/theme';
 
 export const Wrapper = styled.div`
   width: 100%;
+  display: grid;
+  grid-template-columns: 95% 5%;
+  justify-content: space-between;
+`;
+
+export const WrapperData = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,19 +29,6 @@ export const StepperContainer = styled.div`
   width: 100%;
   display: grid;
   grid-template-columns: 10% 20% 20% 20% 20%;
-`;
-
-export const Stepper = styled.div`
-  background-color: ${colors.THINGRAY};
-  width: 100%;
-  display: grid;
-  grid-template-columns: 10% 20% 20% 20% 20%;
-  border-radius: 11px;
-`;
-export const IsFille = styled.div`
-  background-color: ${(props) => (props.backgroundColor ? colors.GOLD : 'none')};
-  width: 100%;
-  border-radius: 11px;
 `;
 
 export const FelxDivider = styled.div`
@@ -66,4 +60,9 @@ export const Container = styled.div`
     border-radius: 20px;
     background-color: ${(props) => props.color};
   }
+`;
+
+export const Text = styled.div`
+  color: ${(props) => props.color || colors.GRAYACTIONBUTTON};
+  font-weight: ${(props) => props.fontWeight || 'unset'};
 `;
