@@ -21,7 +21,11 @@ const UploadButton = () => {
         type='file'
       />
       <label htmlFor='contained-button-file'>
-        <StyleUpButtom variant='contained' component='span'>
+        <StyleUpButtom
+          variant='contained'
+          color='primary'
+          component='span'
+          style={{ boxDecorationBreak: 'none' }}>
           UPLOAD LIST ⬆️
         </StyleUpButtom>
       </label>

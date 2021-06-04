@@ -24,7 +24,6 @@ const Boxes = () => {
     console.log(newArray);
   };
 
-  console.log(cardData);
   return (
     <>
       <WrapperCard>

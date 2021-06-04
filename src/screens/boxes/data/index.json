@@ -6,47 +6,47 @@
       "check": true,
       "uploadList": false,
       "inputName": "Box name",
-      "icon": "12"
+      "icon": 1
     },
     {
       "title": "Provide your box count",
       "description": "Upload a recipient list or a general headcount to get started",
       "check": false,
       "uploadList": true,
-      "inputName": "Box name",
-      "icon": "12"
+      "inputName": "Galileo",
+      "icon": 2
     },
     {
       "title": "Set a shipping date",
       "description": "Boxbee requires a minimum of 30 days from box submission to fulfill your order. Earliest shipping date for this box is June 01, 2021.",
       "check": false,
       "uploadList": false,
-      "inputName": "Box name",
-      "icon": "12"
+      "inputName": "Tesla",
+      "icon": 3
     },
     {
       "title": "Give your box a name1",
       "description": "Create a nickname to help track your box orders",
       "check": true,
       "uploadList": true,
-      "inputName": "Box name",
-      "icon": "12"
+      "inputName": "Copernico",
+      "icon": 2
     },
     {
       "title": "Provide your box count1",
       "description": "Upload a recipient list or a general headcount to get started",
       "check": false,
       "uploadList": true,
-      "inputName": "Box name",
-      "icon": "12"
+      "inputName": "Asimov",
+      "icon": 1
     },
     {
       "title": "Set a shipping date11",
       "description": "Boxbee requires a minimum of 30 days from box submission to fulfill your order. Earliest shipping date for this box is June 01, 2021.",
       "check": true,
       "uploadList": false,
-      "inputName": "Box name",
-      "icon": "12"
+      "inputName": "Wolfang",
+      "icon": 3
     }
   ]
 }

@@ -5,11 +5,10 @@ export const WrapperCard = styled.div`
   height: 80%vh;
   padding: 32px 30px 129px 52px;
   border-radius: 50px;
-  background-color: #ffffff; 
+  background-color: #ffffff;
 `;
 
 /////////////Inner Cards Style//////////////
-
 
 export const InnerCard = styled.div`
   width: 300px;
@@ -17,8 +16,8 @@ export const InnerCard = styled.div`
   margin: 65px 36px 32px 0;
   padding: 15px 25px 165px 28px;
   border-radius: 25px;
-  box-shadow: ${(props) => props.boxShadow ? "0 10px 40px -10px rgba(0, 0, 0, 0.3)" : "none"} ;
-  background-color: ${(props) => props.backgroundColor || "#ffffff"}; 
+  box-shadow: ${(props) => (props.boxShadow ? '0 10px 40px -10px rgba(0, 0, 0, 0.3)' : 'none')};
+  background-color: ${(props) => props.backgroundColor || '#ffffff'};
 `;
 
 export const Title = styled.div`
@@ -32,7 +31,7 @@ export const Title = styled.div`
   font-style: normal;
   line-height: 1.4;
   letter-spacing: normal;
-  color: #000000; 
+  color: #000000;
 `;
 
 export const IconCard = styled.div`
@@ -48,7 +47,6 @@ export const CheckIcon = styled.div`
 `;
 
 export const TitleCard = styled.div`
-  
   margin: 24px 0.5px 5px;
   font-family: Montserrat;
   font-size: 20px;
@@ -57,12 +55,10 @@ export const TitleCard = styled.div`
   font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.14px;
-  color: rgba(0, 0, 0, 0.87); 
+  color: rgba(0, 0, 0, 0.87);
 `;
 
 export const Paragraph = styled.div`
-  
-  
   margin: 5px 1.4px 24px 0.5px;
   opacity: 0.8;
   font-family: Avenir;
@@ -76,8 +72,6 @@ export const Paragraph = styled.div`
 `;
 
 export const CardBut = styled.div`
-  
-  
   border-radius: 15px;
   background-color: var(--goldgenrod);
 `;
@@ -89,17 +83,18 @@ export const WrapperButton = styled.div`
 `;
 
 export const CardsFlex = styled.div`
-  display: flex;  
+  display: flex;
   flex-wrap: wrap;
 `;
 
 export const AroundUpButton = styled.div`
   margin: 10px 10px 30px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const InputStyle = styled.div`
   display: flex;
   justify-content: center;
 `;
-
-

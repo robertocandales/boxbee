@@ -3,15 +3,24 @@ import { InnerCard, TitleCard, Paragraph, CheckIcon, IconCard, AroundUpButton } 
 import CardsInput from '../../../shared/customizedInput/CardsInput';
 import checkedimage from '../../assets/checked.svg';
 import uncheckedimage from '../../assets/unchecked.svg';
-import iconCard from '../../assets/box-1.svg';
+
 import UploadButton from '../UploadButton/UploadButton';
 import { colors } from '../../../../config/theme';
+
+//assets
+import iconCard from '../../assets/box-1.svg';
+import iconCard1 from '../../assets/box-2.svg';
+import iconCard2 from '../../assets/box-3.svg';
 
 const SmallerCards = ({ item, changeCheck }) => {
   return (
     <InnerCard backgroundColor={item.check ? colors.WHITE : colors.GRAY} boxShadow={item.check}>
       <IconCard>
-        <img src={iconCard} alt='' et='' />
+        <img
+          src={item.icon === 1 ? iconCard : item.icon === 2 ? iconCard1 : iconCard2}
+          alt=''
+          et=''
+        />
       </IconCard>
       {item.check ? (
         <CheckIcon onClick={() => changeCheck(item)}>
@@ -29,7 +38,10 @@ const SmallerCards = ({ item, changeCheck }) => {
           <UploadButton />
         </AroundUpButton>
       ) : null}
-      <CardsInput description={item.inputName} />
+      <AroundUpButton>
+        {' '}
+        <CardsInput description={item.inputName} />
+      </AroundUpButton>
     </InnerCard>
   );
 };

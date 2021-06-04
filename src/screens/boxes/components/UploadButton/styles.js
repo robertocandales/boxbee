@@ -12,4 +12,5 @@ export const StyleUpButtom = styled(Button)`
   border: none;
   font-size: 15px;
   font-weight: bold;
+  box-shadow: none;
 `;
