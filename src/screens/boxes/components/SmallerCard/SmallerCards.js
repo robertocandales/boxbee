@@ -7,18 +7,18 @@ import iconCard from '../../assets/box-1.svg';
 import UploadButton from '../UploadButton/UploadButton';
 import { colors } from '../../../../config/theme';
 
-const SmallerCards = ({ item, setCardData }) => {
+const SmallerCards = ({ item, changeCheck }) => {
   return (
     <InnerCard backgroundColor={item.check ? colors.WHITE : colors.GRAY} boxShadow={item.check}>
       <IconCard>
         <img src={iconCard} alt='' et='' />
       </IconCard>
       {item.check ? (
-        <CheckIcon>
+        <CheckIcon onClick={() => changeCheck(item)}>
           <img src={checkedimage} alt='' />
         </CheckIcon>
       ) : (
-        <CheckIcon>
+        <CheckIcon onClick={() => changeCheck(item)}>
           <img src={uncheckedimage} alt='' />
         </CheckIcon>
       )}
