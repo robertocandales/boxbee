@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import { colors } from './config/theme';
 
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: '#BE1621',
+      main: colors.WHITE,
     },
     secondary: {
       main: '#E33E7F',
