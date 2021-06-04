@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 import { colors } from '../../../../config/theme';
-import Button from '@material-ui/core/Button';
 
-export const StyleUpButtom = styled(Button)`
+export const StyleUpButtom = styled.button`
   display: flex;
   justify-content: center;
   width: 100%;

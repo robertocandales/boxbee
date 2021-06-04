@@ -1,5 +1,5 @@
 import React from 'react';
-import { InnerCard, TitleCard, Paragraph, CheckIcon, IconCard, AroundUpButton } from '../../styles';
+import { InnerCard, TitleCard, Paragraph, CheckIcon, IconCard, AroundUpButton } from './styles';
 import CardsInput from '../../../shared/customizedInput/CardsInput';
 import checkedimage from '../../assets/checked.svg';
 import uncheckedimage from '../../assets/unchecked.svg';
